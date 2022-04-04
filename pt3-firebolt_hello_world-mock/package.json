@@ -1,0 +1,25 @@
+{
+  "name": "pt3-firebolt_hello_world-mock",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "webpack",
+    "dev": "cross-env NODE_ENV=development webpack serve"
+  },
+  "dependencies": {
+    "@firebolt-js/sdk": "^0.6.0",
+    "@lightningjs/sdk": "^4.6.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.5",
+    "@babel/preset-env": "^7.14.5",
+    "copy-webpack-plugin": "^10.2.4",
+    "cross-env": "^7.0.3",
+    "html-webpack-plugin": "^5.5.0",
+    "pug": ">=3.0.1",
+    "pug-loader": "^2.4.0",
+    "webpack": "^5.68.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  }
+}
